@@ -1,4 +1,4 @@
-package br.com.digitro.containers.model;
+package br.com.emersonmendes.containers.model;
 
 import javax.persistence.*;
 

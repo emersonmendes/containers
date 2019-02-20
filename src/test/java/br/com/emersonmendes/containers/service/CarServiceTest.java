@@ -1,7 +1,7 @@
-package br.com.digitro.containers.service;
+package br.com.emersonmendes.containers.service;
 
-import br.com.digitro.containers.AbstractTest;
-import br.com.digitro.containers.model.Car;
+import br.com.emersonmendes.containers.AbstractTest;
+import br.com.emersonmendes.containers.model.Car;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

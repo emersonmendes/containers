@@ -1,4 +1,4 @@
-package br.com.digitro.containers;
+package br.com.emersonmendes.containers;
 
 import org.junit.Before;
 import org.junit.ClassRule;
