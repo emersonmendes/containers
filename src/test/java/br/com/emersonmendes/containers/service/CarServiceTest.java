@@ -5,6 +5,8 @@ import br.com.emersonmendes.containers.model.Car;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Set;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -26,5 +28,11 @@ public class CarServiceTest extends AbstractTest {
 		assertEquals("Fusca", car.getName());
 
 	}
+
+    @Test
+    public void testSomething1() {
+        Set<Car> cars = service.findAll();
+        assertEquals(8, cars.size());
+    }
 
 }
