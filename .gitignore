@@ -27,3 +27,5 @@ HELP.md
 
 *.attach_*
 *.mvn/**
+
+.tmp/**
